@@ -1,0 +1,23 @@
+    .corFundo{
+        background-color: black;
+    }
+
+    .alinhamentoLogin{
+        margin-top: 5%;
+        margin-left: 40%;
+        margin-right: 40%;
+
+    }
+
+    .alinhamentoTop{
+        margin-top: 5%;
+    }
+
+    .imgAlinhamento{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alinhamentoLeft{
+        margin-left: 4%;
+    }

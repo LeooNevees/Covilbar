@@ -1,0 +1,48 @@
+
+.margem{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.distancia1{
+    margin-left: 75%;
+}
+.distancia2{
+    margin-left: 58.3%;
+}
+.distancia3{
+    margin-left: 83.3%;
+}
+.distancia4{
+    margin-left: 91.6%;
+}
+.distanciaTop{
+    margin-top: 5%;
+}
+.distanciaSMargem{
+    margin-left: 0%; 
+}
+.distanciaNome{
+    margin-left: 0%;
+}
+.distanciaQuantidade{
+    margin-left: 7.4%;
+}
+.distanciaUM{
+    margin-left: 9.1%;
+}
+.distanciaUnitario{
+    margin-left: 9.1%;
+}
+.distanciaTotal{
+    margin-left: 7.3%;
+}
+.buttonAdicionar{
+    text-align: center;
+}
+.fundo1{
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}

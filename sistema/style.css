@@ -1,0 +1,472 @@
+/*INICIO CSS INDEX*/
+.fundo1{
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.distancia2{
+    margin-left: 58.3%;
+}
+.afastamentoNavBar{
+    margin-left: 14%;
+}
+.afastamentoNomeUser{
+    text-align: center;
+}
+.alinhamentoComprar{
+    margin-left: 92%;
+    margin-top: 6%;
+    position: fixed;
+
+}
+.IndexMargem{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.IndexMargem2{
+    margin-top: 3%;
+    margin-left: 23%;
+    margin-right: 22%;
+}
+.margem3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.IndexDistancia1{
+    margin-left: 41%;
+}
+.IndexDistancia3{
+    margin-left: 78%;
+}
+.distancia4{
+    margin-left: 91.6%;
+}
+.distanciaTop{
+    margin-top: 3%;
+}
+.distanciaTop1{
+    margin-top: 1%;
+}
+.distanciaTop2{
+    margin-top: 80%;
+}
+.distanciaTop3{
+    margin-top: 0.7%;
+}
+.IndexDistanciaSMargem{
+    margin-top: 1%;
+    margin-left: -95%; 
+}
+.distanciaNome{
+    margin-left: 0%;
+}
+.IndexDistanciaQuantidade{
+    margin-left: 2.8%;
+}
+.distanciaQuantidade2{
+    margin-left: 1%;
+}
+.distanciaUM{
+    margin-left: 9.1%;
+}
+.IndexDistanciaUnitario{
+    margin-left: 2.8%;
+}
+.distanciaUnitario2{
+    margin-left: 1%;
+}
+.distanciaTotal{
+    margin-left: 2.7%;
+}
+.IndexDistanciaTotal2{
+    margin-left: 1%;
+}
+.buttonAdicionar{
+    text-align: center;
+}
+.popup .overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+}
+
+.popup2 .overlay2 {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+}
+
+.popup3 .overlay3 {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+}
+
+.popup .content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background-color: #1C1C1C;
+    width:800px;
+    max-height: 800px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 20px;
+}
+
+.popup2 .content2 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background-color: #8B0000;
+    width:400px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 20px;
+}
+
+.popup3 .content3 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background-color: #1C1C1C;
+    width: 800px;
+    max-height: 700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 20px;
+}
+
+.popup .close-btn {
+    cursor:pointer;
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    width:30px;
+    height:30px;
+    background:#8B0000;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+
+.popup2 .close-btn2 {
+    cursor:pointer;
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    width:30px;
+    height:30px;
+    background: yellow;
+    color:red;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+
+.popup3 .close-btn3 {
+    cursor:pointer;
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    width:30px;
+    height:30px;
+    background: #8B0000;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+
+.popup.active .overlay {
+    display:block;
+}
+
+.popup2.active2 .overlay2 {
+    display:block;
+}
+
+.popup3.active3 .overlay3 {
+    display:block;
+}
+
+.popup.active .content {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.popup2.active2 .content2 {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.popup3.active3 .content3 {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.fundoComandas{
+    margin-left: 2%;
+    margin-right: 9%;
+    background-attachment: fixed;
+    position: relative;
+}
+.fundoComandas2{
+    margin-left: 5%;
+    margin-right: 2%;
+    background-attachment: fixed;
+    position: relative;
+}
+.comanda{
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 330px;
+    width: 360px;
+    display: inline-block;
+    background-color: #1C1C1C; 
+    border-radius: 6%;
+}
+.mesaComanda{
+    margin-top: 3%;
+    margin-left: 34.5%;
+    text-align: center;
+}
+.center{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+.centerValor{
+    margin-top: 1%;
+    margin-left: 25%;
+    text-align: center;
+}
+.centerValorTitle{
+    margin-left: 38%;
+}
+.centerButtonAdicionar{
+    margin-top: 4%;
+    margin-left: 38%;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.centerButtonAdicionar2{
+    margin-top: 4%;
+    margin-left: 4%;
+    text-align: center;
+}
+.distanciaBotaoFinalizar{
+    margin-left: 1%;
+}
+
+.IndexBotaoExcluirLinha{
+    width: 35px;
+    height: 33px;
+    margin-left: 1%;
+    text-align: center;
+}
+.retornoComandasAbertas{
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.divProdutosAberto{
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #8B0000;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 1px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*FIM CSS INDEX*/
+
+
+
+
+/*----------INICIO CSS FINALIZAR DIA----------*/
+.FinalizarDiaMargem{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.FinalizarDiaDistancia1{
+    margin-left: 75%;
+}
+.distancia3{
+    margin-left: 83.3%;
+}
+.distanciaSMargem{
+    margin-left: 0%; 
+}
+
+.FinalizarDiaDistanciaQuantidade{
+    margin-left: 7.4%;
+}
+.FinalizarDiadistanciaUnitario{
+    margin-left: 9.1%;
+}
+.FinalizarDiaDistanciaTotal{
+    margin-left: 7.3%;
+}
+
+.botaoExcluirLinha{
+    width: 35px;
+    height: 33px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.botaoExcluirLinha2{
+    width: 35px;
+    height: 33px;
+    margin-left: 4%;
+    text-align: center;
+}
+
+
+
+
+/*--------------INÍCIO CSS VISUALIZAR COMANDA--------------*/
+.VisualizarComandaMargem{
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.VisualizarComandaMargem2{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.VisualizarComandaDistancia1{
+    margin-left: 58%;
+}
+.distancia5{
+    margin-left: 74.5%;
+}
+.VisualizarComandaDistanciaTop{
+    margin-top: 1%;
+}
+
+.VisualizarComandaDistanciaQuantidade{
+    margin-left: 2.7%;
+}
+.VisualizarComandaDistanciaUnitario{
+    margin-left: 2.7%;
+}
+
+.distanciaTotal2{
+    margin-left: 83.1%;
+}
+
+
+/*--------------FIM CSS VISUALIZAR COMANDA--------------*/
